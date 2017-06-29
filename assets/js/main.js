@@ -1,4 +1,4 @@
-/*Se hace ready a document que es a toda la página para que jquery se cargue cuando esta esté lista y no antes de eso.
+//Se hace ready a document que es a toda la página para que jquery se cargue cuando esta esté lista y no antes de eso.
 $(document).ready(function(){
 	
 	//se la click al boton
@@ -34,8 +34,10 @@ $(document).ready(function(){
 
 		});
 	});
-})*/
-//Se hace ready a document que es a toda la página para que jquery se cargue cuando esta esté lista y no antes de eso.
+})
+/*
+CORRE PERO NO FUNCIONÓ LO QUE QUERÍA.snif
+Se hace ready a document que es a toda la página para que jquery se cargue cuando esta esté lista y no antes de eso.
 $(document).ready(function(){
 	
 	//se la click al boton
@@ -73,4 +75,4 @@ $(document).ready(function(){
 		}
 		//if que realiza las acciones, primero que el espacio no esté en blanco, primer else, se escribe la tarea que lleva el div con el checkbox y un a para remover la tarea.
 	});
-})
+})*/
