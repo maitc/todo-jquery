@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>To Do App</title>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<!-- FIRST SECTION -->
+	<section class="first-section">
+		<div class="container">
+			<div class="row">
+				<div class="col s12 center-align">
+					<h1>TO-DO</h1>
+					<h2>App</h2>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- SECOND SECTION -->
+	<section class="second-section">
+		<div class="container">
+			<div class="row">
+				<div class="col offset-s3 s6 offset-s3 caja">
+					<form action="">
+						<input type="text" id="ingresa" placeholder="Ingrese tarea">
+						<button id="boton">Enviar</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- THIRD SECTION -->
+	<section class="third-section">
+		<div class="container">
+			<div class="row">
+				<div class="col offset-s3 s6 offset-s3 caja-aparece">
+					<h3>To Do Items: </h3>
+					<div id="tareas">
+						<!-- AQUÍ VA LO INGRESADO -->
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col offset-s3 s6 offset-s3 caja-aparece">
+					<h3>Completed Items: </h3>
+					<ul id="tareas-completadas">
+						<!-- AQUÍ VA LO INGRESADO -->
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
