@@ -1,0 +1,69 @@
+*{
+	font-family: 'Josefin Sans', sans-serif;
+}
+body{
+	background-color: rgba(250, 207, 134, 0.2);
+}
+
+/**FIRST SECTION**/
+.first-section h1{
+	font-size: 45px;
+	font-weight: 700;
+	margin: 67px 0 0px 0;
+}
+.first-section h2{
+	font-size: 35px;
+	font-weight: 300;
+	margin: 0 0 60px 0;
+}
+
+/**SECOND SECTION**/
+.second-section{
+	background-color: rgba(95, 124, 165, 0.2);
+}
+.caja{
+	background-color: rgba(39, 56, 79, 0.2);
+}
+.second-section form{
+	margin-top: 15px;
+}
+.caja form button{
+	border: none;
+	border-radius: 5px;
+	padding: 6px;
+	color: whitesmoke;
+	background-color: rgba(39, 56, 79, 0.7);
+}
+::-webkit-input-placeholder { 
+	color: whitesmoke; 
+} /* WebKit */
+:-moz-placeholder { 
+	color: whitesmoke; 
+} /* Firefox 18- */
+::-moz-placeholder { 
+	color: whitesmoke; 
+} /* Firefox 19+ */
+:-ms-input-placeholder { 
+	color: whitesmoke;
+} /* IE 10+ */
+/**THIRD SECTION**/
+.third-section{
+	background-color: rgba(95, 124, 165, 0.2);
+}
+.row{
+	margin-bottom: 0px;
+}
+.caja-aparece{
+	background-color: rgba(39, 56, 79, 0.2);
+}
+.caja-aparece h3{
+	font-size: 20px;
+	font-weight: 700;
+}
+#label-color{
+	color: black;
+}
+.eliminar{
+  float: right;
+  cursor: pointer;
+}
